@@ -25,7 +25,6 @@ const updateChannel = async () => {
 	    if (stats.raw.numplayers != nb) {
 	    	channel.setName(`👥 ・GMod4Life : ${stats.raw.numplayers}/90`);
 			client.user.setActivity(`👥 ・GMod4Life : ${stats.raw.numplayers}/90`, {type: "PLAYING"});
-			client.user.setStatus('dnd')
 	    }
 };
 
