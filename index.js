@@ -34,7 +34,7 @@ client.on("ready", () => {
 	
 	
 	updateChannel();
-	setInterval(updateChannel, 60*300);
+	setInterval(updateChannel, 60000*0.05);
 	
 });
 
