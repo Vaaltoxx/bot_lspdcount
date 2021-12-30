@@ -41,14 +41,14 @@ client.on("ready", () => {
 client.on("messageCreate", message => {
 	if(message.author.bot) return;
 
-	if(message.content ===  "+rules")
+	if(message.content === "+rules")
 	var embed = new Discord.MessageEmbed()
 		.setColor("#021c4a")
-		.setDescription("**`` Règle L.S.P.D ``**")		
+		.setTitle("**`` Règle L.S.P.D ``**")		
 		.setFooter("LSPD | BOT, https://cdn.discordapp.com/attachments/923731758833360918/926102347816534056/LSPDfi24755436x391-1512x512.png")
 		.setThumbnail("https://cdn.discordapp.com/attachments/923731758833360918/926102347816534056/LSPDfi24755436x391-1512x512.png")
 
 
-	message.channel.send({ embeds: [embed]})
+	message.channel.send({ embeds: [embed]});
 })
 client.login(process.env.TOKEN);
