@@ -2,6 +2,7 @@
     "playerCountChannelID": "925733636647571467",
     "playerCountServerIP": "164.132.202.97",
     "playerCountServerPort": "27015",
-
-    "token": ""
+    
+    "token": "",
+    "prefix" : "+"
 }
