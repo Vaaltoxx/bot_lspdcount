@@ -41,7 +41,7 @@ client.on("ready", () => {
 client.on("messageCreate", message => {
 	if(message.author.bot) return;
 
-	if(message.content === prefix + "rules")
+	if(message.content ===  "+rules")
 	var embed = new Discord.MessageEmbed()
 		.setColor("#021c4a")
 		.setDescription("**`` Règle L.S.P.D ``**")		
