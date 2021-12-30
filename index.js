@@ -13,8 +13,6 @@ var nb = 1000
 
 const updateChannel = async () => {
 
-		const channel = client.channels.cache.get(config.playerCountChannelID);
-		if(!channel) throw new Error("La salon spécifié dans la configuration n'existe pas !");
 		
 	    const stats = await gamedig.query({
 	        type: "garrysmod",
